@@ -1,0 +1,508 @@
+,編號,格式名,Class Name,訂單狀態,訂單日期,訂單歸戶碼,商品歸戶碼,訂購人歸戶碼,其他,備註,Required headers,js
+,636,"taobaotw
+淘寶台灣",TAOBAOTW_1588842320,狀態,訂單日期,主訂單編號,SKU,"[""收件者電話"",""信箱""]",單價,,"狀態,訂單日期,主訂單編號,SKU,[""收件者電話"",""信箱""],單價","{""order_external_id"":[""主訂單編號""],
+ ""order_status"":[""狀態""],
+ ""order_date"":[""訂單日期""],
+ ""product_external_id"":[""SKU""],
+ ""client_external_id"":[[""收件者電話"",""信箱""]],
+ ""others"":[""單價""]}"
+,635,"Accupass
+活動通 2020 訂單資訊",ACCUPASS_1562839149,狀態,報名時間(GTM+8),訂單編號,,"[訂購人手機, 訂購人Email, 會員編號, 參加人手機, 參加人Email]",,,"狀態,報名時間(GTM+8),訂單編號,,[訂購人手機, 訂購人Email, 會員編號, 參加人手機, 參加人Email],","{""order_external_id"":[""訂單編號""],
+ ""order_status"":[""狀態""],
+ ""order_date"":[""報名時間(GTM+8)""],
+ ""product_external_id"":[],
+ ""client_external_id"":[[""訂購人手機"", ""訂購人Email"", ""會員編號"", ""參加人手機"", ""參加人Email""]],
+ ""others"":[]}"
+,634,"flyingV
+群眾募資",FLYINGVCC_1587384346,,訂單建立時間,"訂單建立時間,USER_ID",回饋 ID,USER_ID,,,",訂單建立時間,訂單建立時間,USER_ID,回饋 ID,USER_ID,","{""order_external_id"":[""訂單建立時間"" , ""USER_ID""],
+ ""order_status"":[],
+ ""order_date"":[""訂單建立時間""],
+ ""product_external_id"":[""回饋 ID""],
+ ""client_external_id"":[""“USER_ID""""],
+ ""others"":[]}"
+,562,Yahoo 購物中心,YAHOO_1580700991,訂單狀態,轉單日,訂單編號,供應商料號,"[收件人手機, 收件人電話(日), 收件人電話(夜)]",,,"訂單狀態,轉單日,訂單編號,供應商料號,[收件人手機, 收件人電話(日), 收件人電話(夜)],","{""order_external_id"":[""訂單編號""],
+ ""order_status"":[""訂單狀態""],
+ ""order_date"":[""轉單日""],
+ ""product_external_id"":[""供應商料號""],
+ ""client_external_id"":[[""收件人手機"", ""收件人電話(日)"", ""收件人電話(夜)""]],
+ ""others"":[]}"
+,465,"Ruten
+露天拍賣",RUTEN_1576736570,交易狀態,賣出時間,"買家帳號 , 賣出時間",賣家自用料號,"[手機, 電話, 買家帳號]",交易狀態,,"交易狀態,賣出時間,買家帳號 , 賣出時間,賣家自用料號,[手機, 電話, 買家帳號],交易狀態","{""order_external_id"":[""買家帳號 , ""賣出時間""],
+ ""order_status"":[""交易狀態""],
+ ""order_date"":[""賣出時間""],
+ ""product_external_id"":[""賣家自用料號""],
+ ""client_external_id"":[[""手機"", ""電話"", ""買家帳號""]],
+ ""others"":[""交易狀態""]}"
+,464,"Ruten
+露天拍賣 出貨",RUTEN_1576736471,,結帳時間,訂單編號,賣家自用料號,"[手機, 電話, 買家帳號]",交易狀態,,"  ,結帳時間,訂單編號,賣家自用料號,[手機, 電話, 買家帳號],交易狀態","{""order_external_id"":[""訂單編號""],
+ ""order_status"":["" ""],
+ ""order_date"":[""結帳時間""],
+ ""product_external_id"":[""賣家自用料號""],
+ ""client_external_id"":[[""手機"", ""電話"", ""買家帳號""]],
+ ""others"":[""交易狀態""]}"
+,480,"好學網
+報名名單",UKNOWIKNOW_1578643917,訂單狀態,報名時間," 報名時間 , 報名序號",,"[手機, E-mail]",,報名名單無產品,"訂單狀態,報名時間, 報名時間 , 報名序號,,[手機, E-mail],","{""order_external_id"":["" ""報名時間"" , ""報名序號""],
+ ""order_status"":[""訂單狀態""],
+ ""order_date"":[""報名時間""],
+ ""product_external_id"":[],
+ ""client_external_id"":[[""手機"", ""E-mail""]],
+ ""others"":[]}"
+,471,"Easy store
+簡單開店 會員
+",EASYSTORE_1577425899,,,,,"[Phone, Email, _client_id_]","FirstName , LastName",,",,,,[Phone, Email, _client_id_],FirstName , LastName","{""order_external_id"":[],
+ ""order_status"":[],
+ ""order_date"":[],
+ ""product_external_id"":[],
+ ""client_external_id"":[[""Phone"", ""Email"", ""_client_id_""]],
+ ""others"":[""FirstName"" , ""LastName""]}"
+,470,"Easy store
+簡單開店
+",EASYSTORE_1577425823,Fulfillment Status,Date,OrderNumber,ItemSKU,"[BillingPhone, BillingEmail, FulfillmentPhone, FulfillmentEmail, full_name]","OrderNumber, ItemDiscount,ItemPrice, Quantity",,"Fulfillment Status,Date,OrderNumber,ItemSKU,[BillingPhone, BillingEmail, FulfillmentPhone, FulfillmentEmail, full_name],OrderNumber, ItemDiscount,ItemPrice, Quantity","{""order_external_id"":[""OrderNumber""],
+ ""order_status"":[""Fulfillment Status""],
+ ""order_date"":[""Date""],
+ ""product_external_id"":[""ItemSKU""],
+ ""client_external_id"":[[""BillingPhone"", ""BillingEmail"", ""FulfillmentPhone"", ""FulfillmentEmail"", ""full_name""]],
+ ""others"":[""OrderNumber"", ""ItemDiscount"",""ItemPrice"", ""Quantity""]}"
+,461,Cyberbiz,CYBERBIZ_1576554753,訂單狀態,時間,訂單編號,"[SKU, 商品廠商編號]","[付款人電話, Email, 訂購人]"," 訂單編號, 小計",,"訂單狀態,時間,訂單編號,[SKU, 商品廠商編號],[付款人電話, Email, 訂購人], 訂單編號, 小計","{""order_external_id"":[""訂單編號""],
+ ""order_status"":[""訂單狀態""],
+ ""order_date"":[""時間""],
+ ""product_external_id"":[[""SKU"", ""商品廠商編號""]],
+ ""client_external_id"":[[""付款人電話"", ""Email"", ""訂購人""]],
+ ""others"":["" ""訂單編號"", ""小計""]}"
+,392,"嘖嘖
+zeczec
+",ZECZEC_1571969000,,訂單確認時間,訂單編號,贊助選項ID,"[電話, 電子信箱]",選項價錢,,",訂單確認時間,訂單編號,贊助選項ID,[電話, 電子信箱],選項價錢","{""order_external_id"":[""訂單編號""],
+ ""order_status"":[],
+ ""order_date"":[""訂單確認時間""],
+ ""product_external_id"":[""贊助選項ID""],
+ ""client_external_id"":[""電話"", ""電子信箱""],
+ ""others"":[""選項價錢""]}"
+,390,WordPress,WORDPRESS_1571821718,Order Status,Order Date,OrderID,"[SKU, VariationsSKU]","[BillingPhone, BillingEmail]","SalePrice, Purchased",,"Order Status,Order Date,OrderID,[SKU, VariationsSKU],[BillingPhone, BillingEmail],SalePrice, Purchased","{""order_external_id"":[""OrderID""],
+ ""order_status"":[""Order Status""],
+ ""order_date"":[""Order Date""],
+ ""product_external_id"":[[""SKU"", ""VariationsSKU""]],
+ ""client_external_id"":[[""BillingPhone"", ""BillingEmail""]],
+ ""others"":[""SalePrice"", ""Purchased""]}"
+,389,"citiesocial
+找好東西
+",CITIESOCIAL_1571824538, ,PO 日期,PO號碼,,收件人電話,"金額, 購買數量, PO號碼",," ,PO 日期,PO號碼,,收件人電話,金額, 購買數量, PO號碼","{""order_external_id"":[""PO號碼""],
+ ""order_status"":[],
+ ""order_date"":[""PO 日期""],
+ ""product_external_id"":[],
+ ""client_external_id"":[""收件人電話""],
+ ""others"":[""金額"", ""購買數量"" , ""PO 號碼""]}"
+,370,"PChome 商店街
+訂單查詢",PCHOME_1586403898,,訂購日期,訂單編號,"[店家料號, 商品編號]",訂購人,"數量, 金額小計,訂單編號",,",訂購日期,訂單編號,[店家料號, 商品編號],訂購人,數量, 金額小計,訂單編號","{""order_external_id"":[""訂單編號""],
+ ""order_status"":[],
+ ""order_date"":[""訂購日期""],
+ ""product_external_id"":[[""店家料號"", ""商品編號""]],
+ ""client_external_id"":[""訂購人""],
+ ""others"":[""數量"", ""金額小計"", ""訂單編號""""]}"
+,369,"你知我知
+好學網 會員",UKNOWIKNOW_1568971119,, ,,,"[帳號(Email), 會員ID]",,會員登入資料,", ,,,[帳號(Email), 會員ID],","{""order_external_id"":[],
+ ""order_status"":[],
+ ""order_date"":[],
+ ""product_external_id"":[],
+ ""client_external_id"":[[""帳號(Email)"", ""會員ID""]],
+ ""others"":[]}"
+,368,"ORDERLY
+物流商品代號表",ORDERLY_LOGISTICS,,,,,,"商品編號,商品規格",,",,,,,商品編號,商品規格","{""order_external_id"":[],
+ ""order_status"":[],
+ ""order_date"":[],
+ ""product_external_id"":[],
+ ""client_external_id"":[],
+ ""others"":[""商品編號"",""商品規格""]}"
+,367,"你知我知
+好學網",UKNOWIKNOW_1568271794,,課程日期,訂單編號,課程ID,"[訂購人手機, 訂購人信箱, 參加人手機, 參加人信箱, 訂購人姓名]",票種名稱,,",課程日期,訂單編號,課程ID,[訂購人手機, 訂購人信箱, 參加人手機, 參加人信箱, 訂購人姓名],票種名稱","{""order_external_id"":[""訂單編號""],
+ ""order_status"":[],
+ ""order_date"":[""課程日期""],
+ ""product_external_id"":[""課程ID""],
+ ""client_external_id"":[[""訂購人手機"", ""訂購人信箱"", ""參加人手機"", ""參加人信箱"", ""訂購人姓名""]],
+ ""others"":[""“票種名稱""""]}"
+,366,"Shopline
+分潤訂單",SHOPLINE_1568084128,訂單狀態,訂單日期,訂單號碼,,,"[活動名稱, 推薦類型, 訂單回饋, 推薦回饋] tags",,"訂單狀態,訂單日期,訂單號碼,,,[活動名稱, 推薦類型, 訂單回饋, 推薦回饋] tags","{""order_external_id"":[""訂單號碼""],
+ ""order_status"":[""訂單狀態""],
+ ""order_date"":[""訂單日期""],
+ ""product_external_id"":[],
+ ""client_external_id"":[],
+ ""others"":[[""活動名稱"", ""推薦類型"", ""訂單回饋"", ""推薦回饋""]]}"
+,338,產品組合對應表,ORDERLY_PACKAGES,,,,,,,,",,,,,","{""order_external_id"":[],
+ ""order_status"":[],
+ ""order_date"":[],
+ ""product_external_id"":[],
+ ""client_external_id"":[],
+ ""others"":[]}"
+,334,"UDN 買東西 / 有設計
+訂單查詢",UDN_1562578427,,訂購日期,訂單編號,廠商料號,訂購日期,"訂單編號, 原售價-小計,進貨價-小計",,",訂購日期,訂單編號,廠商料號,訂購日期,訂單編號, 原售價-小計,進貨價-小計","{""order_external_id"":[""訂單編號""],
+ ""order_status"":[],
+ ""order_date"":[""訂購日期""],
+ ""product_external_id"":[""廠商料號""],
+ ""client_external_id"":[""訂購日期""],
+ ""others"":[""訂單編號"", ""原售價-小計"",""進貨價-小計""]}"
+,333,"BOOKS 博客來
+訂單查詢",BOOKSTW_1562163244,訂單狀態,轉單日期,訂單編號,貨號,聯絡電話,,,"訂單狀態,轉單日期,訂單編號,貨號,聯絡電話,","{""order_external_id"":[""訂單編號""],
+ ""order_status"":[""訂單狀態""],
+ ""order_date"":[""轉單日期""],
+ ""product_external_id"":[""貨號""],
+ ""client_external_id"":[""聯絡電話""],
+ ""others"":[]}"
+,306,"SHOP123
+會員",SHOP123TW_1559814091,,,,,"[帳號, 信箱]",,,",,,,[帳號, 信箱],","{""order_external_id"":[],
+ ""order_status"":[],
+ ""order_date"":[],
+ ""product_external_id"":[],
+ ""client_external_id"":[[""帳號"", ""信箱""]],
+ ""others"":[]}"
+,305,91APP 會員,A91APP_1559799149,,,,,"[手機號碼, 電子郵件, 91APP會員編號, 91APP實體會員編號, 會員姓名]",,單純會員資料 無訂購資料,",,,,[手機號碼, 電子郵件, 91APP會員編號, 91APP實體會員編號, 會員姓名],","{""order_external_id"":[],
+ ""order_status"":[],
+ ""order_date"":[],
+ ""product_external_id"":[],
+ ""client_external_id"":[[""手機號碼"", ""電子郵件"", ""91APP會員編號"", ""91APP實體會員編號"", ""會員姓名""]],
+ ""others"":[]}"
+,303,WACA 會員,WACA_1559798054,,,,,"[電話, Email]",,,",,,,[電話, Email],","{""order_external_id"":[],
+ ""order_status"":[],
+ ""order_date"":[],
+ ""product_external_id"":[],
+ ""client_external_id"":[[""電話"", ""Email""]],
+ ""others"":[]}"
+,300,特力屋,TRPLUSTW_1558954487,,訂單日期,訂單號碼,商品編號,"[手機, 電話]","成本(未稅), 數量",,",訂單日期,訂單號碼,商品編號,[手機, 電話],成本(未稅), 數量","{""order_external_id"":[""訂單號碼""],
+ ""order_status"":[],
+ ""order_date"":[""訂單日期""],
+ ""product_external_id"":[""商品編號""],
+ ""client_external_id"":[[""手機"", ""電話""]],
+ ""others"":[""成本(未稅)"", ""數量""]}"
+,262,"Accupass
+活動通 2020",ACCUPASS_1562839149,,報名時間(GTM+8),訂單編號,,"[訂購人手機, 訂購人Email, 會員編號, 參加人手機, 參加人Email]",,報名資料 無商品,",報名時間(GTM+8),訂單編號,,[訂購人手機, 訂購人Email, 會員編號, 參加人手機, 參加人Email],","{""order_external_id"":[""訂單編號""],
+ ""order_status"":[],
+ ""order_date"":[""報名時間(GTM+8)""],
+ ""product_external_id"":[],
+ ""client_external_id"":[[""訂購人手機"", ""訂購人Email"", ""會員編號"", ""參加人手機"", ""參加人Email""]],
+ ""others"":[]}"
+,260,91APP,A91APP_1556696263,訂單狀態,轉單日期時間,主單編號,商品料號,"[收件人電話, 91APP會員編號, 91APP實體會員編號, 購買人, 收件人]","收件人,商品單價, 數量,總成本,折抵點數, 點數折扣金額, 活動折扣金額, 折價券折扣金額, 折扣金額,運費",,"訂單狀態,轉單日期時間,主單編號,商品料號,[收件人電話, 91APP會員編號, 91APP實體會員編號, 購買人, 收件人],收件人,商品單價, 數量,總成本,折抵點數, 點數折扣金額, 活動折扣金額, 折價券折扣金額, 折扣金額,運費","{""order_external_id"":[""主單編號""],
+ ""order_status"":[""訂單狀態""],
+ ""order_date"":[""轉單日期時間""],
+ ""product_external_id"":[""商品料號""],
+ ""client_external_id"":[[""收件人電話"", ""91APP會員編號"", ""91APP實體會員編號"", ""購買人"", ""收件人""]],
+ ""others"":[""收件人"",""商品單價"", ""數量"",""總成本"",""折抵點數"", ""點數折扣金額"", ""活動折扣金額"", ""折價券折扣金額"", ""折扣金額"",""運費""]}"
+,259,"Yahoo
+超級商城",YAHOO_1556694212,訂單狀態,轉單日期,"[交易序號, 訂單編號]",店家商品料號,"[訂購人行動電話,收件人行動電話,
+            收件人電話,
+            收件人電話(日), 收件人電話(夜)]","[交易序號, 訂單編號], 金額小計,數量",,"訂單狀態,轉單日期,[交易序號, 訂單編號],店家商品料號,[訂購人行動電話,收件人行動電話,
+            收件人電話,
+            收件人電話(日), 收件人電話(夜)],[交易序號, 訂單編號], 金額小計,數量","{""order_external_id"":[[""交易序號"", ""訂單編號""]],
+ ""order_status"":[""訂單狀態""],
+ ""order_date"":[""轉單日期""],
+ ""product_external_id"":[""店家商品料號""],
+ ""client_external_id"":[[""訂購人行動電話"",
+ ""收件人行動電話"",
+ ""收件人電話"",
+ ""收件人電話(日)"", ""收件人電話(夜)""]],
+ ""others"":[[""交易序號"", ""訂單編號""], ""金額小計"" ,""數量""]}"
+,258,康德 ERP 會員,KANTECHTW_1556540881,,,,,"[會員編號, 手機, 聯絡電話, 電子郵件信箱]",,,",,,,[會員編號, 手機, 聯絡電話, 電子郵件信箱],","{""order_external_id"":[],
+ ""order_status"":[],
+ ""order_date"":[],
+ ""product_external_id"":[],
+ ""client_external_id"":[[""會員編號"", ""手機"", ""聯絡電話"", ""電子郵件信箱""]],
+ ""others"":[]}"
+,257,康德 ERP,KANTECHTW_1554889513,訂單狀態,訂單日期,訂單編號,"[商品條碼, 物品編號, 採購貨號]",會員編號,"金額小計, 數量用於subtotal 訂單編號用於order total price",,"訂單狀態,訂單日期,訂單編號,[商品條碼, 物品編號, 採購貨號],會員編號,金額小計, 數量用於subtotal 訂單編號用於order total price","{""order_external_id"":[""訂單編號""],
+ ""order_status"":[""訂單狀態""],
+ ""order_date"":[""訂單日期""],
+ ""product_external_id"":[[""商品條碼"", ""物品編號"", ""採購貨號""]],
+ ""client_external_id"":[""會員編號""],
+ ""others"":[""金額小計"", ""數量"", ""訂單編號""]}"
+,256,"ORDERLY 
+訂單格式",ORDERLY_ORDERS,訂單狀態,訂購日期,訂單編號,商品編號,"[會員編號, 手機號碼, Email]","商品售價, 數量, 商品小計商品小計 order_total_price",,"訂單狀態,訂購日期,訂單編號,商品編號,[會員編號, 手機號碼, Email],商品售價, 數量, 商品小計商品小計 order_total_price","{""order_external_id"":[""訂單編號""],
+ ""order_status"":[""訂單狀態""],
+ ""order_date"":[""訂購日期""],
+ ""product_external_id"":[""商品編號""],
+ ""client_external_id"":[[""會員編號"", ""手機號碼"", ""Email""]],
+ ""others"":[""商品售價"", ""數量"", ""商品小計""商品小計"" ""order_total_price""]}"
+,256,"Google Sheet
+(ORDERLY)",GOOGLE_SHEETS,訂單狀態,訂購日期,,,,,,"訂單狀態,訂購日期,,,,","{""order_external_id"":[],
+ ""order_status"":[""訂單狀態""],
+ ""order_date"":[""訂購日期""],
+ ""product_external_id"":[],
+ ""client_external_id"":[],
+ ""others"":[]}"
+,255,"Shopee
+蝦皮購物 2019",SHOPEE_1556276843,訂單狀態 (單),訂單成立時間 (單),訂單編號(單),"[主商品貨號, 商品選項貨號]","[買家帳號(單), 收件者電話(單)]","商品原價(品), 數量, subtotal",,"訂單狀態 (單),訂單成立時間 (單),訂單編號(單),[主商品貨號, 商品選項貨號],[買家帳號(單), 收件者電話(單)],商品原價(品), 數量, subtotal","{""order_external_id"":[""訂單編號(單)""],
+ ""order_status"":[""訂單狀態 (單)""],
+ ""order_date"":[""訂單成立時間 (單)""],
+ ""product_external_id"":[[""主商品貨號"", ""商品選項貨號""]],
+ ""client_external_id"":[[""買家帳號(單)"", ""收件者電話(單)""]],
+ ""others"":[""商品原價(品)"", ""數量""]}"
+,237,"PChome 商店街
+一般+24h",PCHOME_1554877759,,訂購日期,訂單編號,店家料號,收貨人電話,"數量, 金額, product_price",,",訂購日期,訂單編號,店家料號,收貨人電話,數量, 金額, product_price","{""order_external_id"":[""訂單編號""],
+ ""order_status"":[],
+ ""order_date"":[""訂購日期""],
+ ""product_external_id"":[""店家料號""],
+ ""client_external_id"":[""收貨人電話""],
+ ""others"":[""數量"", ""金額""]}"
+,236,"博客來
+寄倉",BOOKSTW_1554859800,,,結算日期,商品貨號,,,,",,結算日期,商品貨號,,","{""order_external_id"":[""結算日期""],
+ ""order_status"":[],
+ ""order_date"":[],
+ ""product_external_id"":[""商品貨號""],
+ ""client_external_id"":[],
+ ""others"":[]}"
+,235,"Shopee
+蝦皮購物",SHOPEE_1554732569,訂單狀態 (單),訂單成立時間 (單),訂單編號(單),,"[收件者電話(單), 買家帳號(單)]",,,"訂單狀態 (單),訂單成立時間 (單),訂單編號(單),,[收件者電話(單), 買家帳號(單)],","{""order_external_id"":[""訂單編號(單)""],
+ ""order_status"":[""訂單狀態 (單)""],
+ ""order_date"":[""訂單成立時間 (單)""],
+ ""product_external_id"":[],
+ ""client_external_id"":[[""收件者電話(單)"", ""買家帳號(單)""]],
+ ""others"":[]}"
+,234,"momo
+購物網(查詢)",MOMOMALLTW_1554708188,,轉單日,,商品原廠編號,"個人識別碼 , 收件人姓名",,,",轉單日,,商品原廠編號,個人識別碼 , 收件人姓名,","{""order_external_id"":[],
+ ""order_status"":[],
+ ""order_date"":[""轉單日""],
+ ""product_external_id"":[""商品原廠編號""],
+ ""client_external_id"":[""個人識別碼"" , ""收件人姓名""],
+ ""others"":[]}"
+,233,"momo
+購物網(寄倉)",MOMOMALLTW_1554718369,,訂單成立日,訂單編號,"[商品原廠編號, 單品編號]",收件人姓名,"售價(含稅), 數量, subtotal",,",訂單成立日,訂單編號,[商品原廠編號, 單品編號],收件人姓名,售價(含稅), 數量, subtotal","{""order_external_id"":[""訂單編號""],
+ ""order_status"":[],
+ ""order_date"":[""訂單成立日""],
+ ""product_external_id"":[[""商品原廠編號"", ""單品編號""]],
+ ""client_external_id"":[""收件人姓名""],
+ ""others"":[""售價(含稅)"", ""數量""]}"
+,233,"momo
+購物網 (退貨)",MOMOMALLTW_1554718369,,訂單成立日,,,,,,",訂單成立日,,,,","{""order_external_id"":[],
+ ""order_status"":[],
+ ""order_date"":[""訂單成立日""],
+ ""product_external_id"":[],
+ ""client_external_id"":[],
+ ""others"":[]}"
+,230,尚青購,MALL3785TV_1554519457,,訂單建立時間,出貨單編號,料號,收件人電話,,,",訂單建立時間,出貨單編號,料號,收件人電話,","{""order_external_id"":[""出貨單編號""],
+ ""order_status"":[],
+ ""order_date"":[""訂單建立時間""],
+ ""product_external_id"":[""料號""],
+ ""client_external_id"":[""收件人電話""],
+ ""others"":[]}"
+,216,"momo
+購物網 (每日)",MOMOMALLTW_1553073272,  ,轉單日,訂單編號,"[商品原廠編號, ]","[收件人行動電話, 收件人電話, 個人識別碼]","進價(含稅), 數量, subtotal",,"  ,轉單日,訂單編號,[商品原廠編號, ],[收件人行動電話, 收件人電話, 個人識別碼],進價(含稅), 數量, subtotal","{""order_external_id"":[""訂單編號""],
+ ""order_status"":["" ""],
+ ""order_date"":[""轉單日""],
+ ""product_external_id"":[[""商品原廠編號"", ""]],
+ ""client_external_id"":[[""收件人行動電話"", ""收件人電話"", ""個人識別碼""]],
+ ""others"":[""進價(含稅)"", ""數量""]}"
+,213,"媽咪愛 (對帳單)
+MamiLove",MAMILOVETW_1553055017, ,訂單成立日期,,"[廠商貨號, 商品編號]",訂單成立日期,,," ,訂單成立日期,,[廠商貨號, 商品編號],訂單成立日期,","{""order_external_id"":[],
+ ""order_status"":[],
+ ""order_date"":[""訂單成立日期""],
+ ""product_external_id"":[[""廠商貨號"", ""商品編號""]],
+ ""client_external_id"":[""訂單成立日期""],
+ ""others"":[]}"
+,212,"17Life
+生活電商",A17LIFE_1553051996,訂單狀態,購買日期,訂單編號,貨號,收件人電話,,,"訂單狀態,購買日期,訂單編號,貨號,收件人電話,","{""order_external_id"":[""訂單編號""],
+ ""order_status"":[""訂單狀態""],
+ ""order_date"":[""購買日期""],
+ ""product_external_id"":[""貨號""],
+ ""client_external_id"":[""收件人電話""],
+ ""others"":[]}"
+,210,"iCHEF 會員
+餐飲 POS",ICHEFPOS_1552912711,,,,,"[手機號碼, 電子郵件]",,,",,,,[手機號碼, 電子郵件],","{""order_external_id"":[],
+ ""order_status"":[],
+ ""order_date"":[],
+ ""product_external_id"":[],
+ ""client_external_id"":[[""手機號碼"", ""電子郵件""]],
+ ""others"":[]}"
+,209,OCERP,OCERP_1552894801, ,發票開立日(必填YYYY-MM-DD),訂單ID,商品組合自訂料號,,"數量, 訂單金額, product_price",," ,發票開立日(必填YYYY-MM-DD),訂單ID,商品組合自訂料號,,數量, 訂單金額, product_price","{""order_external_id"":[""訂單ID""],
+ ""order_status"":[],
+ ""order_date"":[""發票開立日(必填YYYY-MM-DD)""],
+ ""product_external_id"":[""商品組合自訂料號""],
+ ""client_external_id"":[],
+ ""others"":[""數量"", ""訂單金額""]}"
+,208,生活市集,BUY123_1552902343,退貨或重複訂單,付款時間,訂單編號,,電話,"檔次售價,生活市集平均單價",,"退貨或重複訂單,付款時間,訂單編號,,電話,檔次售價,生活市集平均單價","{""order_external_id"":[""訂單編號""],
+ ""order_status"":[""退貨或重複訂單""],
+ ""order_date"":[""付款時間""],
+ ""product_external_id"":[],
+ ""client_external_id"":[""電話""],
+ ""others"":[""檔次售價"",""生活市集平均單價""]}"
+,200,"PChome 
+24h購物(寄倉)",PCHOME_1551774457,,轉單日期,訂單編號,廠商料號,訂購人,"實付金額,單位成本,實際出貨數量",,",轉單日期,訂單編號,廠商料號,訂購人,實付金額,單位成本,實際出貨數量","{""order_external_id"":[""訂單編號""],
+ ""order_status"":[],
+ ""order_date"":[""轉單日期""],
+ ""product_external_id"":[""廠商料號""],
+ ""client_external_id"":[""訂購人""],
+ ""others"":[""實付金額"",""單位成本"",""實際出貨數量""]}"
+,198,WACA,WACA_1551667761,訂單狀態,購買日期,訂單編號,商品編號,"[購買人聯絡電話, 購買人電子信箱]","小計,數量",,"訂單狀態,購買日期,訂單編號,商品編號,[購買人聯絡電話, 購買人電子信箱],小計,數量","{""order_external_id"":[""訂單編號""],
+ ""order_status"":[""訂單狀態""],
+ ""order_date"":[""購買日期""],
+ ""product_external_id"":[""商品編號""],
+ ""client_external_id"":[[""購買人聯絡電話"", ""購買人電子信箱""]],
+ ""others"":[""小計"",""數量""]}"
+,194,"PChome 
+24h購物(對帳單)",PCHOME_1551061510, ,轉單日期,訂單編號,商品名稱/編號,轉單日期,,," ,轉單日期,訂單編號,商品名稱/編號,轉單日期,","{""order_external_id"":[""訂單編號""],
+ ""order_status"":[],
+ ""order_date"":[""轉單日期""],
+ ""product_external_id"":[""商品名稱/編號""],
+ ""client_external_id"":[""轉單日期""],
+ ""others"":[]}"
+,193,"HERBUY
+好買寶貝",HERBUYTW_1551023146,,,訂單編號,供貨商產品編號,收件人電話,,,",,訂單編號,供貨商產品編號,收件人電話,","{""order_external_id"":[""訂單編號""],
+ ""order_status"":[],
+ ""order_date"":[],
+ ""product_external_id"":[""供貨商產品編號""],
+ ""client_external_id"":[""收件人電話""],
+ ""others"":[]}"
+,173,松果購物 (出貨),PCONE_1550304498,,付款時間,訂單編號,主料號,"[訂購人電話, 電話]","方案價格, 方案數量, subtotal",,",付款時間,訂單編號,主料號,[訂購人電話, 電話],方案價格, 方案數量, subtotal","{""order_external_id"":[""訂單編號""],
+ ""order_status"":[],
+ ""order_date"":[""付款時間""],
+ ""product_external_id"":[""主料號""],
+ ""client_external_id"":[[""訂購人電話"", ""電話""]],
+ ""others"":[""方案價格"", ""方案數量""]}"
+,172,松果購物-超取,PCONE_1550302824, ,付款時間,訂單編號,主料號,"[訂購人電話, 電話]","方案數量, 訂單金額, product_price",," ,付款時間,訂單編號,主料號,[訂購人電話, 電話],方案數量, 訂單金額, product_price","{""order_external_id"":[""訂單編號""],
+ ""order_status"":[],
+ ""order_date"":[""付款時間""],
+ ""product_external_id"":[""主料號""],
+ ""client_external_id"":[[""訂購人電話"", ""電話""]],
+ ""others"":[""方案數量"", ""訂單金額""]}"
+,171,PayEasy,PAYEASYTW_1550142966, ,組檔日期,訂單編號,廠商商品原始碼,"[手機, 電話(日), 電話(夜)]","商品數量, 帳款金額,訂單貨款",," ,組檔日期,訂單編號,廠商商品原始碼,[手機, 電話(日), 電話(夜)],商品數量, 帳款金額,訂單貨款","{""order_external_id"":[""訂單編號""],
+ ""order_status"":[],
+ ""order_date"":[""組檔日期""],
+ ""product_external_id"":[""廠商商品原始碼""],
+ ""client_external_id"":[[""手機"", ""電話(日)"", ""電話(夜)""]],
+ ""others"":[""商品數量"", ""帳款金額"",""訂單貨款""]}"
+,170,"Yahoo!
+購物中心",YAHOO_1550224388,訂單狀態,轉單日,訂單編號,供應商料號,"[收件人手機, 收件人電話(日), 收件人電話(夜)]",,,"訂單狀態,轉單日,訂單編號,供應商料號,[收件人手機, 收件人電話(日), 收件人電話(夜)],","{""order_external_id"":[""訂單編號""],
+ ""order_status"":[""訂單狀態""],
+ ""order_date"":[""轉單日""],
+ ""product_external_id"":[""供應商料號""],
+ ""client_external_id"":[[""收件人手機"", ""收件人電話(日)"", ""收件人電話(夜)""]],
+ ""others"":[]}"
+,169,"Shopee
+蝦皮商城 24h",SHOPEE_1550218862,,時間,"廠商代碼 , 時間",廠商料號,時間,,,",時間,廠商代碼 , 時間,廠商料號,時間,","{""order_external_id"":[""廠商代碼"" , ""時間""],
+ ""order_status"":[],
+ ""order_date"":[""時間""],
+ ""product_external_id"":[""廠商料號""],
+ ""client_external_id"":[""時間""],
+ ""others"":[]}"
+,168,台灣樂天市場,RAKUTENTW_1550215611,order_status,order_date,,,customer_phone,,,"order_status,order_date,,,customer_phone,","{""order_external_id"":[],
+ ""order_status"":[""order_status""],
+ ""order_date"":[""order_date""],
+ ""product_external_id"":[],
+ ""client_external_id"":[""customer_phone""],
+ ""others"":[]}"
+,167,"ETMall
+東森購物",ETMALLTW_1546920597,,出貨指示日,訂單號碼,廠商商品號碼,"[客戶電話, 室內電話]",,,",出貨指示日,訂單號碼,廠商商品號碼,[客戶電話, 室內電話],","{""order_external_id"":[""訂單號碼""],
+ ""order_status"":[],
+ ""order_date"":[""出貨指示日""],
+ ""product_external_id"":[""廠商商品號碼""],
+ ""client_external_id"":[[""客戶電話"", ""室內電話""]],
+ ""others"":[]}"
+,165,"媽咪拜
+Mamibuy",MAMIBUYTW_1550209318,狀態,付款時間,單號,"[商品貨號, 商品樣式]",收件人手機,"單號, 商品總售價",,"狀態,付款時間,單號,[商品貨號, 商品樣式],收件人手機,單號, 商品總售價","{""order_external_id"":[""單號""],
+ ""order_status"":[""狀態""],
+ ""order_date"":[""付款時間""],
+ ""product_external_id"":[[""商品貨號"", ""商品樣式""]],
+ ""client_external_id"":[""收件人手機""],
+ ""others"":[""單號"", ""商品總售價""]}"
+,164,"BOOKS
+博客來",BOOKSTW_1546918295, ,轉單日期,訂單編號,貨號,聯絡電話,"進貨價, 訂購量, 應付金額,訂單編號",," ,轉單日期,訂單編號,貨號,聯絡電話,進貨價, 訂購量, 應付金額,訂單編號","{""order_external_id"":[""訂單編號""],
+ ""order_status"":[],
+ ""order_date"":[""轉單日期""],
+ ""product_external_id"":[""貨號""],
+ ""client_external_id"":[""聯絡電話""],
+ ""others"":[""進貨價"", ""訂購量"", ""應付金額"",""訂單編號""]}"
+,163,"udn
+買東西",UDN_1550215611,,訂購日期,購物車編號,廠商料號,"[收貨人市話, 收貨人手機]","購物車編號, 售價(促銷價)-小計, 進貨價-小計",,",訂購日期,購物車編號,廠商料號,[收貨人市話, 收貨人手機],購物車編號, 售價(促銷價)-小計, 進貨價-小計","{""order_external_id"":[""購物車編號""],
+ ""order_status"":[],
+ ""order_date"":[""訂購日期""],
+ ""product_external_id"":[""廠商料號""],
+ ""client_external_id"":[[""收貨人市話"", ""收貨人手機""]],
+ ""others"":[""購物車編號"", ""售價(促銷價)-小計"", ""進貨價-小計""]}"
+,162,"momo
+摩天商城(批次)",MOMOMALLTW_1550212156,配送狀態,付款日,訂單編號,"[商店品號, MoMo商品編號]","[訂購人行動電話, 訂購人電話, 收件人行動電話, 收件人電話]",,,"配送狀態,付款日,訂單編號,[商店品號, MoMo商品編號],[訂購人行動電話, 訂購人電話, 收件人行動電話, 收件人電話],","{""order_external_id"":[""訂單編號""],
+ ""order_status"":[""配送狀態""],
+ ""order_date"":[""付款日""],
+ ""product_external_id"":[[""商店品號"", ""MoMo商品編號""]],
+ ""client_external_id"":[[""訂購人行動電話"", ""訂購人電話"", ""收件人行動電話"", ""收件人電話""]],
+ ""others"":[]}"
+,161,"friDay
+購物",FRIDAYTW_1546923251,訂單狀態,訂單時間,訂單編號,規格條碼或編號,"[收件人手機, 收件人電話]",,,"訂單狀態,訂單時間,訂單編號,規格條碼或編號,[收件人手機, 收件人電話],","{""order_external_id"":[""訂單編號""],
+ ""order_status"":[""訂單狀態""],
+ ""order_date"":[""訂單時間""],
+ ""product_external_id"":[""規格條碼或編號""],
+ ""client_external_id"":[[""收件人手機"", ""收件人電話""]],
+ ""others"":[]}"
+,138,松果購物,PCONE_1547101550,,付款日期,訂單編號,,"付款日期,訂單編號",,,",付款日期,訂單編號,,付款日期,訂單編號,","{""order_external_id"":[""訂單編號""],
+ ""order_status"":[],
+ ""order_date"":[""付款日期""],
+ ""product_external_id"":[],
+ ""client_external_id"":[""付款日期"",""訂單編號""],
+ ""others"":[]}"
+,132,"Shopee
+蝦皮商城",SHOPEE_1546673703, ,,,,"[電話號碼, SHOPEE_ACCOUNT]",,," ,,,,[電話號碼, SHOPEE_ACCOUNT],","{""order_external_id"":[],
+ ""order_status"":[],
+ ""order_date"":[],
+ ""product_external_id"":[],
+ ""client_external_id"":[[""電話號碼"", ""SHOPEE_ACCOUNT""]],
+ ""others"":[]}"
+,131,SHOPLINE,SHOPLINE_1545715463,訂單狀態,訂單日期,訂單號碼,商品貨號,"[電話號碼, 手機, 電郵, SHOPLINE_ACCOUNT]",,,"訂單狀態,訂單日期,訂單號碼,商品貨號,[電話號碼, 手機, 電郵, SHOPLINE_ACCOUNT],","{""order_external_id"":[""訂單號碼""],
+ ""order_status"":[""訂單狀態""],
+ ""order_date"":[""訂單日期""],
+ ""product_external_id"":[""商品貨號""],
+ ""client_external_id"":[[""電話號碼"", ""手機"", ""電郵"", ""SHOPLINE_ACCOUNT""]],
+ ""others"":[]}"
+,130,"Yahoo
+拍賣",YAHOO_1546677052,訂單狀態,訂單成立時間,"[訂單編號, 帳單編號]",商品編號,"取件人姓名,手機",,,"訂單狀態,訂單成立時間,[訂單編號, 帳單編號],商品編號,取件人姓名,手機,","{""order_external_id"":[[""訂單編號"", ""帳單編號""]],
+ ""order_status"":[""訂單狀態""],
+ ""order_date"":[""訂單成立時間""],
+ ""product_external_id"":[""商品編號""],
+ ""client_external_id"":[""取件人姓名"" , ""手機""],
+ ""others"":[]}"
+,120,"ORDERLY
+產品資料表",ORDERLY_PRODUCTS, ,,,,,,," ,,,,,","{""order_external_id"":[],
+ ""order_status"":[],
+ ""order_date"":[],
+ ""product_external_id"":[],
+ ""client_external_id"":[],
+ ""others"":[]}"
+,114,"PChome
+線上購物中心",PCHOME_1542886013,確認,轉單日期,訂單編號,廠商料號,"[收貨人電話, 收貨人]",,,"確認,轉單日期,訂單編號,廠商料號,[收貨人電話, 收貨人],","{""order_external_id"":[""訂單編號""],
+ ""order_status"":[""確認""],
+ ""order_date"":[""轉單日期""],
+ ""product_external_id"":[""廠商料號""],
+ ""client_external_id"":[[""收貨人電話"", ""收貨人""]],
+ ""others"":[]}"
+,106,"Shopline
+會員",shopline_1542424045, ,,,,"[會員綁定手機號碼, 電話號碼, 電郵, 顧客ID, sudo_client_external_id, 收件人電話]",,會員資料表," ,,,,[會員綁定手機號碼, 電話號碼, 電郵, 顧客ID, sudo_client_external_id, 收件人電話],","{""order_external_id"":[],
+ ""order_status"":[],
+ ""order_date"":[],
+ ""product_external_id"":[],
+ ""client_external_id"":[[""會員綁定手機號碼"", ""電話號碼"", ""電郵"", ""顧客ID"", ""sudo_client_external_id"", ""收件人電話""]],
+ ""others"":[]}"
+,102,趣遊網,KITRAVEL_1542017179,訂單狀態,訂單日期,訂單編號,商品編號,"[手機號碼, Email]",,,"訂單狀態,訂單日期,訂單編號,商品編號,[手機號碼, Email],","{""order_external_id"":[""訂單編號""],
+ ""order_status"":[""訂單狀態""],
+ ""order_date"":[""訂單日期""],
+ ""product_external_id"":[""商品編號""],
+ ""client_external_id"":[[""手機號碼"", ""Email""]],
+ ""others"":[]}"
+,90,"Pinkoi
+亞洲領先設計",PINKOI_1539258313,訂單類型,訂單成立日期,訂單編號,,"[購買人電話, 收件人電話]","訂單編號, 小計",,"訂單類型,訂單成立日期,訂單編號,,[購買人電話, 收件人電話],訂單編號, 小計","{""order_external_id"":[""訂單編號""],
+ ""order_status"":[""訂單類型""],
+ ""order_date"":[""訂單成立日期""],
+ ""product_external_id"":[],
+ ""client_external_id"":[[""購買人電話"", ""收件人電話""]],
+ ""others"":[""訂單編號"", ""小計""]}"
+,62,QDM,QDM_1542424000,訂單狀態,購買日期,訂單編號,SKU,"[購買人電話, 電子郵件, 客戶ID]",,,"訂單狀態,購買日期,訂單編號,SKU,[購買人電話, 電子郵件, 客戶ID],","{""order_external_id"":[""訂單編號""],
+ ""order_status"":[""訂單狀態""],
+ ""order_date"":[""購買日期""],
+ ""product_external_id"":[""SKU""],
+ ""client_external_id"":[[""購買人電話"", ""電子郵件"", ""客戶ID""]],
+ ""others"":[]}"
+,43,"QDM
+會員資料",QDM_1545019685,,,,,"[電話, email, 客戶ID]",,,",,,,[電話, email, 客戶ID],","{""order_external_id"":[],
+ ""order_status"":[],
+ ""order_date"":[],
+ ""product_external_id"":[],
+ ""client_external_id"":[[""電話"", ""email"", ""客戶ID""]],
+ ""others"":[]}"
+,39,"Accupass
+活動通",ACCUPASS_1562839149,狀態,報名時間(GTM+8),訂單編號,,"[訂購人手機, 訂購人Email, 會員編號, 參加人手機, 參加人Email]",,,"狀態,報名時間(GTM+8),訂單編號,,[訂購人手機, 訂購人Email, 會員編號, 參加人手機, 參加人Email],","{""order_external_id"":[""訂單編號""],
+ ""order_status"":[""狀態""],
+ ""order_date"":[""報名時間(GTM+8)""],
+ ""product_external_id"":[],
+ ""client_external_id"":[[""訂購人手機"", ""訂購人Email"", ""會員編號"", ""參加人手機"", ""參加人Email""]],
+ ""others"":[]}"
