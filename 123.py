@@ -1,10 +1,10 @@
 
 import json
 tt = open('b.json')
-ttt = '''{"order_external_id":["主訂單編號"],
- "order_status":["狀態"],
- "order_date":["訂單日期"],
- "product_external_id":["SKU"],
- "client_external_id":[["收件者電話","信箱"]],
- "others":["單價"]}'''
+ttt = '''{"order_external_id":["訂單編號"],
+ "order_status":[],
+ "order_date":["訂購日期"],
+ "product_external_id":[["店家料號", "商品編號"]],
+ "client_external_id":["訂購人"],
+ "others":["數量", "金額小計", "訂單編號""]}'''
 json.loads(ttt)

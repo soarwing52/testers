@@ -1,6 +1,6 @@
-{"order_external_id":["主訂單編號"],
-    "order_status":["狀態"],
-    "order_date":["訂單日期"],
-    "product_external_id":["SKU"],
-    "client_external_id":[["收件者電話","信箱"]],
-    "others":["單價"]}
+{"order_external_id":[ "買家帳號 " ,  "賣出時間 "],
+     "order_status ":[ "交易狀態 "],
+     "order_date ":[ "賣出時間 "],
+     "product_external_id ":[ "賣家自用料號 "],
+     "client_external_id ":[[ "手機 ",  "電話 ",  "買家帳號 "]],
+    "others":["交易狀態"]}
