@@ -1,2 +1,1 @@
-a = 'commit 1'
-b='commit2'
+commit 3
